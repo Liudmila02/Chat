@@ -1,0 +1,18 @@
+h3 {
+    color:red;
+}
+.left__block {
+    margin-top: 120px;
+}
+.left__block__title {
+    position: 10px;
+}
+.right__block {
+    width: 50%;
+}
+body {
+    background-color: #333300;
+    color: #FFFFFF;
+}
+
+

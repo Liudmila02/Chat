@@ -3,7 +3,7 @@ var app = express();
 var server = require('http').createServer(app);
 var io = require('socket.io')(server);
 
-server.listen('https://chat-each-other.herokuapp.com/');
+server.listen(process.env.PORT || 3000);
 
 app.get('/', function(request, respons){
     respons.sendFile(__dirname + '/index.html');
